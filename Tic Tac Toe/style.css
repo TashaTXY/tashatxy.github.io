@@ -1,0 +1,144 @@
+
+/*general*/
+.hidden {
+    display: none;
+}
+
+body {
+    font-family: 'RujisHandwritingFontv20Medium'; 
+    background-image: url("./images/pastel.gif");
+    background-color: #000a1c;
+    background-size: cover;
+}
+
+/*header*/
+h1 {
+    font-size: 45px;
+    text-align: center;
+    margin: 24px 0;
+    margin-top: 32px;
+}
+
+/*start sequence*/
+.start-banner {
+    background-color: lightsteelblue;
+    color: black;
+    text-shadow: 2px 2px #93a7c1;
+    width: 100vw;
+    height: 100vh;
+    font-size: 30px;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.start {
+    margin-top: 25vh;
+}
+
+.number-of-players h6 {
+    margin-top: 5vh;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.number-of-players h6:hover {
+    font-size: 20px;
+    border: 1px solid #93a7c1;
+    background-color: #93a7c1;
+    cursor: pointer;
+}
+
+/*players + scoreboard*/
+.player-turn, .scoreboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.player-turn p {
+    font-size: 25px;
+}
+
+.player-turn .player1, .player-turn .player2 {
+    margin: 10px 80px;
+}
+
+.scoreboard p {
+    font-size: 30px;
+    margin: 8px 10px;
+}
+
+.player1-turn {
+    color: #b20000;
+    font-weight: bold;
+}
+
+.player2-turn {
+    color: #2200a0;
+    font-weight: bold;
+}
+
+
+/*tic tac toe*/
+.boxes {
+	width: 70vh;
+	height: 70vh;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+.box {
+	height: 30%;
+    width: 30%;
+    background-color: rgba(250, 250, 250, 0.9);
+    border: 1px solid #bfe0ff;
+    border-radius: 8px;
+    margin: 3px;
+	font-size: 19vh;
+	text-align: center;
+}
+
+.box:hover {
+    background-color: white;
+}
+
+/*replay sequence*/
+.replay-banner {
+    background-color: #f7cada;
+    color: black;
+    text-shadow: 2px 2px #e0b1c2;
+    width: 100vw;
+    height: 25vh;
+    font-size: 30px;
+    text-align: center;
+    line-height: 5vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.replay-banner:hover {
+    background-color: #e0b1c2;
+    text-shadow: 2px 2px #bc91a1;
+    cursor: pointer;
+}
+
+/*restart sequence*/
+.restart-button {
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    margin: 0;
+}
+
+.restart-button:hover {
+    color: #494949;
+    cursor: pointer;
+}

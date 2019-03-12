@@ -1,0 +1,53 @@
+
+body {
+    font-family: 'CretanHieroglyphsRegular'; 
+}
+
+.header {
+    background-color: #c3d9f7;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    padding-bottom: 6px;
+}
+
+.text-center {
+    font-size: 40px;
+    margin: 14px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    margin: 0 20%;
+}
+
+.font-size {
+    font-size: 20px;
+}
+
+.images {
+    position: relative;
+    top: 210px;
+}
+
+.grid img{
+    height: 200px;
+    width: 200px;
+    margin: 7px;
+}
+
+/*Large devices*/
+@media (max-width: 992px) {
+
+}
+
+/*Medium devices*/
+@media (max-width: 768px) {
+
+}
+
+/*Small device*/
+@media (max-width: 576px) {
+
+}
